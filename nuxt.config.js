@@ -37,7 +37,8 @@ module.exports = {
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-PX7HVHV', pageTracking: true }]
   ],
 
   /*

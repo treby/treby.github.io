@@ -6,28 +6,26 @@
         <p class="lead">
           <q>The best way to predict the future is to invent it.</q>
         </p>
-        <p>
-          <i class="fa fa-map-marker"></i>&nbsp;Tokyo, Japan<br /><i class="fa fa-rss"></i>&nbsp;<a href='http://lineblog.me/treby/' target='_blank'>treby's survival blog</a>
-        </p>
+        <p><font-awesome-icon icon="map-marker-alt" />&nbsp;Tokyo, Japan</p>
+        <p><font-awesome-icon icon="rss" />&nbsp;<a href="http://lineblog.me/treby/" target="_blank">treby's survival blog</a></p>
         <p class="icons">
-          <a href="https://github.com/treby" title="@treby"><i class="fa fa-lg fa-github-square"></i></a>
-          <a href="https://www.facebook.com/Hiroaki.Ninomiya" title="Hiroaki Ninomiya"><i class="fa fa-lg fa-facebook-square"></i></a>
-          <a href="https://jp.linkedin.com/in/treby" title="treby"><i class="fa fa-lg fa-linkedin-square"></i></a>
-          <a href="http://www.slideshare.net/treby"><i class="fa fa-lg fa-slideshare"></i></a>
-          <a href="https://twitter.com/treby006" title="@treby006"><i class="fa fa-lg fa-twitter-square"></i></a>
-          <a href="http://qiita.com/treby" title="Qiita"><i class="fa fa-lg fa-square"></i></a>
-          <a href="https://www.wantedly.com/users/103035" title="Wantedly"><i class="fa fa-lg fa-square"></i></a>
+          <a href="https://github.com/treby" title="@treby"><font-awesome-icon :icon="['fab', 'github-square']" /></a>
+          <a href="https://www.facebook.com/Hiroaki.Ninomiya" title="Hiroaki Ninomiya"><font-awesome-icon :icon="['fab', 'facebook-square']" /></a>
+          <a href="https://jp.linkedin.com/in/treby" title="treby"><font-awesome-icon :icon="['fab', 'linkedin-square']" /></a>
+          <a href="http://www.slideshare.net/treby"><font-awesome-icon :icon="['fab', 'slideshare']" /></a>
+          <a href="https://twitter.com/treby006" title="@treby006"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
+          <a href="http://qiita.com/treby" title="Qiita"><font-awesome-icon icon="square" /></a>
+          <a href="https://www.wantedly.com/users/103035" title="Wantedly"><font-awesome-icon icon="square" /></a>
         </p>
         <p>Rails, PHP, JavaScript, AWS, Heroku</p>
       </div>
-      <hr />
       <div class="starter-template">
         <h2>Works</h2>
         <ul class="portfolio">
-          <li><a href="https://twitter.com/mlborder">@mlborder</a>&nbsp;<a href="https://github.com/mlborder/borderbot-core"><i class="fa fa-github"></i></a> - Ruby, Twitter, Web Crawling/Scraping, InfluxDB</li>
-          <li><a href="http://mlborder.com">mlborder.com</a>&nbsp;<a href="https://github.com/mlborder/borderbot-rails"><i class="fa fa-github"></i></a> - Rails, PHP(Slim Framework), Heroku</li>
-          <li><a href="https://rubygems.org/gems/rubimas">rubimas</a>&nbsp;<a href="https://github.com/imas/rubimas"><i class="fa fa-github"></i></a> - Rubygems (Ruby library) / hobby use</li>
-          <li><a href="https://twitter.com/pronama_bot">@pronama_bot</a>&nbsp;<a href="https://github.com/pronama/pronama-bot"><i class="fa fa-github"></i></a> - CoffeeScript, Hubot, Heroku</li>
+          <li><a href="https://twitter.com/mlborder">@mlborder</a>&nbsp;<a href="https://github.com/mlborder/borderbot-core"><font-awesome-icon :icon="['fab', 'github']" /></a> - Ruby, Twitter, Web Crawling/Scraping, InfluxDB</li>
+          <li><a href="http://mlborder.com">mlborder.com</a>&nbsp;<a href="https://github.com/mlborder/borderbot-rails"><font-awesome-icon :icon="['fab', 'github']" /></a> - Rails, PHP(Slim Framework), Heroku</li>
+          <li><a href="https://rubygems.org/gems/rubimas">rubimas</a>&nbsp;<a href="https://github.com/imas/rubimas"><font-awesome-icon :icon="['fab', 'github']" /></a> - Rubygems (Ruby library) / hobby use</li>
+          <li><a href="https://twitter.com/pronama_bot">@pronama_bot</a>&nbsp;<a href="https://github.com/pronama/pronama-bot"><font-awesome-icon :icon="['fab', 'github']" /></a> - CoffeeScript, Hubot, Heroku</li>
         </ul>
         <h2>Activities</h2>
         <ul class="portfolio">

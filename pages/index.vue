@@ -1,67 +1,92 @@
 <template>
   <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        treby.github.io
-      </h1>
-      <h2 class="subtitle">
-        treby&#39;s portfolio
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation</a
-        >
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-          >GitHub</a
-        >
+    <div class="container">
+      <div class="starter-template">
+        <h1>Hiroaki Ninomiya / treby</h1>
+        <p class="lead">
+          <q>The best way to predict the future is to invent it.</q>
+        </p>
+        <p>
+          <i class="fa fa-map-marker"></i>&nbsp;Tokyo, Japan<br /><i class="fa fa-rss"></i>&nbsp;<a href='http://lineblog.me/treby/' target='_blank'>treby's survival blog</a>
+        </p>
+        <p class="icons">
+          <a href="https://github.com/treby" title="@treby"><i class="fa fa-lg fa-github-square"></i></a>
+          <a href="https://www.facebook.com/Hiroaki.Ninomiya" title="Hiroaki Ninomiya"><i class="fa fa-lg fa-facebook-square"></i></a>
+          <a href="https://jp.linkedin.com/in/treby" title="treby"><i class="fa fa-lg fa-linkedin-square"></i></a>
+          <a href="http://www.slideshare.net/treby"><i class="fa fa-lg fa-slideshare"></i></a>
+          <a href="https://twitter.com/treby006" title="@treby006"><i class="fa fa-lg fa-twitter-square"></i></a>
+          <a href="http://qiita.com/treby" title="Qiita"><i class="fa fa-lg fa-square"></i></a>
+          <a href="https://www.wantedly.com/users/103035" title="Wantedly"><i class="fa fa-lg fa-square"></i></a>
+        </p>
+        <p>Rails, PHP, JavaScript, AWS, Heroku</p>
       </div>
-    </div>
+      <hr />
+      <div class="starter-template">
+        <h2>Works</h2>
+        <ul class="portfolio">
+          <li><a href="https://twitter.com/mlborder">@mlborder</a>&nbsp;<a href="https://github.com/mlborder/borderbot-core"><i class="fa fa-github"></i></a> - Ruby, Twitter, Web Crawling/Scraping, InfluxDB</li>
+          <li><a href="http://mlborder.com">mlborder.com</a>&nbsp;<a href="https://github.com/mlborder/borderbot-rails"><i class="fa fa-github"></i></a> - Rails, PHP(Slim Framework), Heroku</li>
+          <li><a href="https://rubygems.org/gems/rubimas">rubimas</a>&nbsp;<a href="https://github.com/imas/rubimas"><i class="fa fa-github"></i></a> - Rubygems (Ruby library) / hobby use</li>
+          <li><a href="https://twitter.com/pronama_bot">@pronama_bot</a>&nbsp;<a href="https://github.com/pronama/pronama-bot"><i class="fa fa-github"></i></a> - CoffeeScript, Hubot, Heroku</li>
+        </ul>
+        <h2>Activities</h2>
+        <ul class="portfolio">
+          <li><a href="https://github.com/shinjukurb/meetups">Shinjuku.rb</a> - Co-organizer (2015.07-)</li>
+          <li><a href="http://www.comiket.co.jp/">Comic Market</a> - Staff (2013.12-)</li>
+        </ul>
+        <h2>Posts</h2>
+        <ul class="portfolio">
+          <li><a href="http://blog.spacemarket.com/code/google-calendar-relation/">『Googleカレンダー連携機能を実装した際の知見』</a> (2016.05)</li>
+          <li><a href="http://www.slideshare.net/treby/believe-my-drembot">『BELIEVE MY DRE@M!!とミリオンボーダーbot』</a> (2016.05)</li>
+          <li><a href="https://www.facebook.com/wantedly/posts/1135747266466005">『二年生になりました o(≧▽≦)o』</a> (2016.03)</li>
+          <li><a href="http://blog.spacemarket.com/code/improve-reservation-flow-using-uncaptured-charge/">『仮売上の仕組みを使って予約フローを改善した話』</a> (2015.12)</li>
+          <li><a href="http://qiita.com/treby/items/0aa377506a47e9135fd3">『アイマスで始めるWebスクレイピング』</a> (2015.12)</li>
+          <li><a href="http://www.slideshare.net/treby/enjoy-hrmonybot">『ENJOY H@RMONY!!とボーダーbot』</a> (2015.06)</li>
+          <li><a href="http://qiita.com/treby/items/9184251b545d9ebc3198">『現場で使うGitのテクニック』</a> (2014.12)</li>
+          <li><a href="http://labs.gree.jp/blog/2014/12/13228/">『『釣り★スタ』チームにおけるエンジニアの生存戦略』</a> (2014.12)</li>
+          <li><a href="http://labs.gree.jp/blog/2013/12/10049/">『イケててヤバいGit入門』</a> (2013.12)</li>
+        </ul>
+        <h2>Books</h2>
+        <ul class="portfolio">
+          <li><a href="http://www.oreilly.co.jp/books/9784873116242/">『NFC Hacks――プロが教えるテクニック &amp; ツール』</a> (2013.11)</li>
+        </ul>
+        <h2>Dojin</h2>
+        <ul class="portfolio">
+          <li><a href="http://www.atelier-nodoka.net/">Atelier NODOKA</a> - Personal blog / fan activities.</li>
+        </ul>
+      </div>
+    </div><!-- /.container -->
   </section>
 </template>
 
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
-
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  padding-top: 5rem;
+}
+q {
+  font-style: italic;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
   text-align: center;
 }
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+a {
+  color: #455a64;
+  text-decoration: underline;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.starter-template > .icons > a:link {
+  color: #0288d1;
 }
-
-.links {
-  padding-top: 15px;
+.starter-template > .icons > a:visited {
+  color: #01579b;
+}
+.starter-template > .icons > a:hover {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+ul.portfolio {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 5em;
 }
 </style>

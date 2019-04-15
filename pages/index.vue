@@ -77,7 +77,7 @@
         <h2>コミュニティ活動</h2>
         <p>私の興味として、組織や人が好きなので原則的に営利が絡まない「場」であるコミュニティには強く関心を寄せています。過去の実績から、特にオーガナイズ、ファシリテーション、巻き込みといった分野に強みを発揮できる傾向があるようです。</p>
         <ul class="portfolio">
-          <li><a href="https://sites.google.com/site/fuknfc/">Fukuoka NFC Lab</a>(〜2013/04) - Founder / 学生時代運営していた福岡におけるNFCのコミュニティ。就職に伴う上京まで定期的に勉強会を開催していた。</li>
+          <li><a href="https://sites.google.com/site/fuknfc/">Fukuoka NFC Lab</a>(〜2013/04) - Founder / 学生時代運営していた福岡におけるNFCのコミュニティ。就職に伴う上京まで定期的に勉強会を開催していました。</li>
           <li><a href="https://github.com/shinjukurb/meetups">Shinjuku.rb</a> - Co-organizer (2015.07〜) / 地域Rubyコミュニティの一つであるShinjuku.rbの世話役を務めています。</li>
           <li><a href="https://github.com/imas/hackathon">IM@Study</a> - Founder / アイマス×エンジニアの力でアイドルマスターを盛り上げるためのコミュニティ。</li>
           <li><a href="http://www.comiket.co.jp/">Comic Market</a> - Staff (2013/12〜) / 夏と冬の年二回開催されるコミックマーケット(3〜4日間開催で来場者数50万人程度)の準備会というスタッフ組織に在籍しています。</li>

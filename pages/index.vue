@@ -123,6 +123,24 @@
   </section>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      title: 'treby / Hiroaki Ninomiya(二宮啓聡)'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: '福岡出身、東京都在住のWeb技術者、二宮啓聡のポートフォリオ' }
+      ]
+    }
+  }
+}
+</script>
+
 <style>
 body {
   padding-top: 5rem;

@@ -82,7 +82,7 @@
           <li><a href="https://github.com/imas/hackathon">IM@Study</a> - Founder / アイマス×エンジニアの力でアイドルマスターを盛り上げるためのコミュニティ。</li>
           <li><a href="http://www.comiket.co.jp/">Comic Market</a> - Staff (2013/12〜) / 夏と冬の年二回開催されるコミックマーケット(3〜4日間開催で来場者数50万人程度)の準備会というスタッフ組織に在籍しています。</li>
           <li><a href="https://vuejs-meetup.connpass.com/">Vue.js日本ユーザーグループ</a> - Core Staff / Vue.jsが日本でより普及するための活動を行っています。</li>
-          <li>きのこるエフエム(Coming Soon) - Founder / <a href="https://connpass.com/event/116938/">The Art of Senior Engineering</a>の流れを受け、エンジニア個々人の生き様や悩みを深掘りしていきます。</li>
+          <li><a href="https://anchor.fm/kinokoru">kinokoru.fm (きのこるエフエム)</a> - Founder / <a href="https://connpass.com/event/116938/">The Art of Senior Engineering</a>の流れを受け、エンジニア個々人の生き様や悩みを深掘りしていきます。</li>
         </ul>
 
         <h2>登壇歴</h2>

@@ -15,8 +15,8 @@
           <li><a href="https://twitter.com/treby006" title="@treby006">Twitter&nbsp;<font-awesome-icon :icon="['fab', 'twitter-square']" /></a></li>
           <li><a href="https://github.com/treby" title="@treby">GitHub&nbsp;<font-awesome-icon :icon="['fab', 'github-square']" /></a></li>
           <li><a href="https://jp.linkedin.com/in/treby" title="treby">LinkedIn&nbsp;<font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
-          <li><a href="http://www.slideshare.net/treby">Slideshare&nbsp;<font-awesome-icon :icon="['fab', 'slideshare']" /></a> - 発表スライドをアップロードするメインのサービスはこちらです。</li>
-          <li><a href="https://speakerdeck.com/treby">Speakerdeck&nbsp;<font-awesome-icon :icon="['fab', 'speaker-deck']" /></a> - スペースマーケット時代、会社としての発信のために使っていました。現在は更新していません。</li>
+          <li><a href="https://speakerdeck.com/treby">Speakerdeck&nbsp;<font-awesome-icon :icon="['fab', 'speaker-deck']" /></a> - 発表スライドをアップロードしています。</li>
+          <li><a href="http://www.slideshare.net/treby">Slideshare&nbsp;<font-awesome-icon :icon="['fab', 'slideshare']" /></a> - 少し古めの発表スライドはこちらにあります。</li>
           <li><a href="http://qiita.com/treby" title="Qiita">Qiita</a></li>
           <li><a href="https://www.wantedly.com/users/103035" title="Wantedly">Wantedly</a></li>
           <li><a href="https://job-draft.jp/users/166" title="転職ドラフト">転職ドラフト</a> - 仕事に対する哲学はこちらがわかりやすいかもしれません。</li>

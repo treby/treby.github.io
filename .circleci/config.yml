@@ -1,0 +1,39 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/treby.info
+    docker:
+      - image: circleci/node:12.4
+    branches:
+      only:
+        - develop
+    steps:
+      - checkout
+      - run:
+          name: Set up Git
+          command: |
+            git config --global user.email 'mlborder@atelier-nodoka.net'
+            git config --global user.name 'konomin-bot'
+      - run:
+          command: sudo npm install -g npm@latest
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Build App
+          command: |
+            npm run generate
+            git clone -b master --depth 1 ${CIRCLE_REPOSITORY_URL} ~/master
+            cp -Rf dist/ ~/master
+      - run:
+          name: Push build results
+          command: |
+            git commit -am "build result ${CIRCLE_SHA1} of ${CIRCLE_BRANCH}"
+            git push origin master
+          working_directory: ~/master

@@ -30,7 +30,7 @@ jobs:
           command: |
             npm run generate
             git clone -b master --depth 1 ${CIRCLE_REPOSITORY_URL} ~/master
-            cp -Rf dist/ ~/master
+            cp -Rf .circleci dist/* ~/master
       - run:
           name: Push build results
           command: |

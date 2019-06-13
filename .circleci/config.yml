@@ -34,6 +34,7 @@ jobs:
       - run:
           name: Push build results
           command: |
-            git commit -am "build result ${CIRCLE_SHA1} of ${CIRCLE_BRANCH}"
+            git add .
+            git commit -m "build result ${CIRCLE_SHA1} of ${CIRCLE_BRANCH}"
             git push origin master
           working_directory: ~/master

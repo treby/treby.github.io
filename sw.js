@@ -2,24 +2,24 @@ importScripts('/assets/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/assets/4eb454f919933d1086fe.js",
-    "revision": "2cb5d460d975aa66173051c6cceaacbd"
+    "url": "/assets/31af8c5f894e192a7c8a.js",
+    "revision": "d8ef924eb7e58b8264a37676280b24ea"
   },
   {
-    "url": "/assets/702b19f1caea818f004d.js",
-    "revision": "bb024a2033ab150869717873bf13b3c8"
+    "url": "/assets/6495e0b713a01ef93ab5.js",
+    "revision": "2587c71536cb15c17cb4c5fadd0facd9"
   },
   {
-    "url": "/assets/b138c23ba6309b160a6c.js",
-    "revision": "8ec16af708f668c01e3f3640d34556ab"
+    "url": "/assets/b1fc48462f1d5fa7319b.js",
+    "revision": "aa99a213407e741b32b24e6354ef1b17"
   },
   {
-    "url": "/assets/d35a7b4aea1f3b18faf0.js",
-    "revision": "4077c1f40474f3f6ef20bc9dbf4f9679"
+    "url": "/assets/c60a2b4e93a7fe793812.js",
+    "revision": "a7a8d5bfeaf1b6a3e382fada6caaeeec"
   },
   {
-    "url": "/assets/e1f65f71309e52f5c48d.js",
-    "revision": "2e6056b52237d450916c6ed1f1e91883"
+    "url": "/assets/d3992c03a167db3cca2b.js",
+    "revision": "2f63f58bb7ba72753b2e1b0158be8fd0"
   }
 ], {
   "cacheId": "treby.github.io",

@@ -127,14 +127,14 @@
 export default {
   data() {
     return {
-      title: 'treby / Hiroaki Ninomiya(二宮啓聡)'
+      title: 'treby / NINOMIYA Hiroaki(二宮啓聡)'
     }
   },
   head() {
     return {
       title: this.title,
       meta: [
-        { hid: 'description', name: 'description', content: '福岡出身、東京都在住のWeb技術者、二宮啓聡のポートフォリオ' }
+        { hid: 'description', name: 'description', content: '福岡出身、東京都在住のWeb Engineer、二宮啓聡 (a.k.a. treby) のポートフォリオ' }
       ]
     }
   }

@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: ~/treby.info
     docker:
-      - image: circleci/node:12.4
+      - image: circleci/node:13.11
     branches:
       only:
         - develop

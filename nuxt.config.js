@@ -38,9 +38,11 @@ module.exports = {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     'nuxt-fontawesome',
-    '@nuxtjs/pwa',
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-PX7HVHV', pageTracking: true }]
+    '@nuxtjs/pwa'
   ],
+  gtm: {
+    id: 'GTM-PX7HVHV'
+  },
 
   fontawesome: {
     imports: [
@@ -73,6 +75,6 @@ module.exports = {
         })
       }
     },
-    publicPath: '/assets/',
+    publicPath: '/assets/'
   }
 }

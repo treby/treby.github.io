@@ -1,3 +1,5 @@
+const { ESLint } = require('eslint')
+const ESLintPlugin = require('eslint-webpack-plugin')
 const pkg = require('./package')
 
 module.exports = {
@@ -68,12 +70,7 @@ module.exports = {
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
+        config.plugins.push(new ESLintPlugin())
       }
     },
     publicPath: '/assets/'

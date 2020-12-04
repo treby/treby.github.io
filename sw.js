@@ -1,35 +1,92 @@
-importScripts('/assets/workbox.4c4f5ca6.js')
+const options = {"workboxURL":"https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox/workbox-sw.js","importScripts":[],"config":{"debug":false},"cacheOptions":{"cacheId":"treby.github.io-prod","directoryIndex":"/","revision":"li6c0X6wNBre"},"clientsClaim":true,"skipWaiting":true,"cleanupOutdatedCaches":true,"offlineAnalytics":false,"preCaching":[{"revision":"li6c0X6wNBre","url":"/?standalone=true"}],"runtimeCaching":[{"urlPattern":"/assets/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]}],"offlinePage":null,"pagesURLPattern":"/","offlineStrategy":"NetworkFirst"}
 
-workbox.precaching.precacheAndRoute([
-  {
-    "url": "/assets/5aa10aa.js",
-    "revision": "cb8bd8dee64ece63b26f34c2755ebd95"
-  },
-  {
-    "url": "/assets/5d74312.js",
-    "revision": "822e496bf10fe88c3536f1bf4784e9d8"
-  },
-  {
-    "url": "/assets/6c18038.js",
-    "revision": "ee362c48ec15c00ac2b4e70664a1e4cf"
-  },
-  {
-    "url": "/assets/e353fe4.js",
-    "revision": "72a67822d814d36b394739fa7db3a051"
-  },
-  {
-    "url": "/assets/fa13b37.js",
-    "revision": "c5f1d2354f1a37d98564e10ff74e5e28"
+importScripts(...[options.workboxURL, ...options.importScripts])
+
+initWorkbox(workbox, options)
+workboxExtensions(workbox, options)
+precacheAssets(workbox, options)
+cachingExtensions(workbox, options)
+runtimeCaching(workbox, options)
+offlinePage(workbox, options)
+routingExtensions(workbox, options)
+
+function getProp(obj, prop) {
+  return prop.split('.').reduce((p, c) => p[c], obj)
+}
+
+function initWorkbox(workbox, options) {
+  if (options.config) {
+    // Set workbox config
+    workbox.setConfig(options.config)
   }
-], {
-  "cacheId": "treby.github.io",
-  "directoryIndex": "/",
-  "cleanUrls": false
-})
 
-workbox.clientsClaim()
-workbox.skipWaiting()
+  if (options.cacheNames) {
+    // Set workbox cache names
+    workbox.core.setCacheNameDetails(options.cacheNames)
+  }
 
-workbox.routing.registerRoute(new RegExp('/assets/.*'), workbox.strategies.cacheFirst({}), 'GET')
+  if (options.clientsClaim) {
+    // Start controlling any existing clients as soon as it activates
+    workbox.core.clientsClaim()
+  }
 
-workbox.routing.registerRoute(new RegExp('/.*'), workbox.strategies.networkFirst({}), 'GET')
+  if (options.skipWaiting) {
+    workbox.core.skipWaiting()
+  }
+
+  if (options.cleanupOutdatedCaches) {
+    workbox.precaching.cleanupOutdatedCaches()
+  }
+
+  if (options.offlineAnalytics) {
+    // Enable offline Google Analytics tracking
+    workbox.googleAnalytics.initialize()
+  }
+}
+
+function precacheAssets(workbox, options) {
+  if (options.preCaching.length) {
+    workbox.precaching.precacheAndRoute(options.preCaching, options.cacheOptions)
+  }
+}
+
+
+function runtimeCaching(workbox, options) {
+  for (const entry of options.runtimeCaching) {
+    const urlPattern = new RegExp(entry.urlPattern)
+    const method = entry.method || 'GET'
+
+    const plugins = (entry.strategyPlugins || [])
+      .map(p => new (getProp(workbox, p.use))(...p.config))
+
+    const strategyOptions = { ...entry.strategyOptions, plugins }
+
+    const strategy = new workbox.strategies[entry.handler](strategyOptions)
+
+    workbox.routing.registerRoute(urlPattern, strategy, method)
+  }
+}
+
+function offlinePage(workbox, options) {
+  if (options.offlinePage) {
+    // Register router handler for offlinePage
+    workbox.routing.registerRoute(new RegExp(options.pagesURLPattern), ({ request, event }) => {
+      const strategy = new workbox.strategies[options.offlineStrategy]
+      return strategy
+        .handle({ request, event })
+        .catch(() => caches.match(options.offlinePage))
+    })
+  }
+}
+
+function workboxExtensions(workbox, options) {
+  
+}
+
+function cachingExtensions(workbox, options) {
+  
+}
+
+function routingExtensions(workbox, options) {
+  
+}

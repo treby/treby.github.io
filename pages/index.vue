@@ -101,7 +101,7 @@
           <li>2018/07&nbsp;<a href="https://techplay.jp/event/679666">Rails Developers Meetup 2018 Day 3 Extreme</a> セッション(タイトル: <a href="https://www.slideshare.net/treby/octocat">Octocatは技術的負債の夢を見るか？</a>)</li>
           <li>2018/12&nbsp;<a href="https://frontend-conf.fukuoka.jp/sessions#b-7">Frontend Conference Fukuoka 2018</a> セッション(タイトル: <a href="https://www.slideshare.net/treby/vuejs-vuex-125352636">Vue.js + Vuexチーム開発実践の事例</a>)</li>
           <li>2019/02&nbsp;<a href="https://www.slideshare.net/treby/em-130373439">Engineering Manager Meetup #4</a> セッション(タイトル: <a href="https://www.slideshare.net/treby/em-130373439">失敗から学ぶEM方法論</a>)</li>
-          <li>他、多数(通常、登壇資料は<a href="https://www.slideshare.net/treby">Slideshareで共有</a>しています)</li>
+          <li>他、多数(通常、登壇資料は<a href="https://www.slideshare.net/treby">Slideshare</a>や<a href="https://speakerdeck.com/treby">Speakerdeck</a>で共有しています)</li>
         </ul>
 
         <h2>記事</h2>

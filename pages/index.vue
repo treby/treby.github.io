@@ -4,13 +4,13 @@
       <div class="starter-template">
         <h1>Hiroaki Ninomiya / treby</h1>
         <p>二宮啓聡と申します。グローバル・ブレイン株式会社というベンチャーキャピタルでTech Talentをしています。会社やコミュニティではtreby(とれびぃ)と呼ばれています。</p>
-        <p>このページでは、私を知るための情報をなるべく簡潔にまとめます(2020/01現在)</p>
+        <p>このページでは、私を知るための情報をなるべく簡潔にまとめます(2021/01現在)</p>
       </div>
       <div class="starter-template">
         <h2>SNSのアカウント</h2>
         <p>ご連絡はメール、もしくはFacebookやTwitterが確実です。</p>
         <ul class="portfolio icons">
-          <li><a href="https://lineblog.me/treby">treby's survival blog&nbsp;<font-awesome-icon :icon="['fab', 'line']" /></a> - 現在更新を精力的に行っているブログです。</li>
+          <li><a href="https://treby.hatenablog.com/">駆動開発(はてなブログ)</a> - 現在のメインブログ。開発に限らずアウトプットの場所として活用しています。</li>
           <li><a href="https://www.facebook.com/Hiroaki.Ninomiya" title="Hiroaki Ninomiya">Facebook&nbsp;<font-awesome-icon :icon="['fab', 'facebook-square']" /></a></li>
           <li><a href="https://twitter.com/treby006" title="@treby006">Twitter&nbsp;<font-awesome-icon :icon="['fab', 'twitter-square']" /></a></li>
           <li><a href="https://github.com/treby" title="@treby">GitHub&nbsp;<font-awesome-icon :icon="['fab', 'github-square']" /></a></li>
@@ -20,6 +20,7 @@
           <li><a href="http://qiita.com/treby" title="Qiita">Qiita</a></li>
           <li><a href="https://www.wantedly.com/users/103035" title="Wantedly">Wantedly</a></li>
           <li><a href="https://job-draft.jp/users/166" title="転職ドラフト">転職ドラフト</a> - 仕事に対する哲学はこちらがわかりやすいかもしれません。</li>
+          <li><a href="https://lineblog.me/treby">treby's survival blog&nbsp;<font-awesome-icon :icon="['fab', 'line']" /></a> - はてなブログ以前、特にフリーランスだった2016年頃、精力的に更新していたブログ。</li>
           <li><a href="http://www.atelier-nodoka.net/">Atelier NODOKA</a> - 私の同人活動のためのサークル「アトリエのどか」。過去には技術系同人誌を発行していたこともありましたが、現在は開店休業状態です。</li>
         </ul>
       </div>
@@ -33,7 +34,8 @@
           <li>アイドルマスター</li>
         </ul>
         <h2>職務経歴</h2>
-        <p>下記に私の職務上の経験を記します。これまでの業務上の経験により、ソーシャルゲーム開発やBtoB SaaS、Ad Technologyといった領域でのドメイン知識を有していると考えられます。また、技術についてはRails、Vue.js、AWS(ECS、SQS、S3等)を実際に触っています。</p>
+        <p>下記に私の職務上の経験を記します。これまでの業務上の経験により、ソーシャルゲーム開発(ただし、ガラケー・ブラウザベース)やBtoB SaaS、MarTech(一部アドテク含む)といった領域でのドメイン知識を有していると考えられます。また、技術についてはRails、Vue.js、AWS(ECS、SQS、S3等)を実際に触っています。</p>
+        <p>プロダクト開発コンテキストでは、アイデアを最小工数で実現できるサーバレス、ローコード、ノーコードといった分野も気になる今日この頃。</p>
 
         <ul class="portfolio">
           <li>
@@ -70,14 +72,19 @@
                   <li><b>チームリーダー</b> - 3〜7人のチームのリーダー職として、自身も開発を行いながら、メンバーとの1on1やチーム内のタスクコントロールなどを行うプレイングマネージャを務めました。</li>
                 </ul>
               </li>
-              <li><b>Solution Architect</b>(2019/04〜) - 組織規模や事業の拡大に伴い、会社にSolution Architectという役割が新たに定義され、その立ち上げに任命されました。プロダクト開発に携わっていた知見を活かすべく日々奔走しています。</li>
+              <li><b>Solution Architect</b>(2019/04〜) - 組織規模や事業の拡大に伴い、会社にSolution Architectという役割が新たに定義され、その立ち上げに任命されました。プロダクト開発に携わっていた知見を活かし、プリセールスやテクニカルアカウントマネジメントのようなことをしていました。必要に応じて機能開発もしました。</li>
             </ul>
           </li>
           <li>
             グローバル・ブレイン株式会社(2020/01〜)
             <ul>
               <li>
-                <b>Principal / Tech Talent</b>
+                <b>Principal / Tech Talent</b>として、社内のIT技術に関わる業務を担当しています。
+                <ul>
+                  <li><b>ITDD</b>(主担当) - 投資検討する際のIT面でのデューデリジェンス、いわゆるデューデリ(DD)です。開発組織、プロダクト、ITガバナンス等々幅広く確認させていただいております。関連して場合によってはご支援先スタートアップの壁打ちをすることもあります。</li>
+                  <li><b><a href="https://universe.globalbrains.com/posts/global-brains-bizdev-team-for-deep-tech-and-cross-border-success">BizDev</a></b> - 兼任。実際の仕事内容としては対象製品がご支援先スタートアップのものという違いはありますが、Solution Architectに近いことをしています。</li>
+                  <li><b>社内ITサポート</b> - 兼任。Techバックグラウンドで、かつ支援業務に就いているメンバーが限られていることもあり社内のIT駆け込み寺のようなことを一部しています。</li>
+                </ul>
               </li>
             </ul>
           </li>
@@ -101,7 +108,7 @@
           <li>2018/07&nbsp;<a href="https://techplay.jp/event/679666">Rails Developers Meetup 2018 Day 3 Extreme</a> セッション(タイトル: <a href="https://www.slideshare.net/treby/octocat">Octocatは技術的負債の夢を見るか？</a>)</li>
           <li>2018/12&nbsp;<a href="https://frontend-conf.fukuoka.jp/sessions#b-7">Frontend Conference Fukuoka 2018</a> セッション(タイトル: <a href="https://www.slideshare.net/treby/vuejs-vuex-125352636">Vue.js + Vuexチーム開発実践の事例</a>)</li>
           <li>2019/02&nbsp;<a href="https://www.slideshare.net/treby/em-130373439">Engineering Manager Meetup #4</a> セッション(タイトル: <a href="https://www.slideshare.net/treby/em-130373439">失敗から学ぶEM方法論</a>)</li>
-          <li>他、多数(通常、登壇資料は<a href="https://www.slideshare.net/treby">Slideshareで共有</a>しています)</li>
+          <li>他、多数(通常、登壇資料は<a href="https://www.slideshare.net/treby">Slideshare</a>や<a href="https://speakerdeck.com/treby">Speakerdeck</a>で共有しています)</li>
         </ul>
 
         <h2>記事</h2>
@@ -120,11 +127,11 @@
       </div>
       <div class="starter-template">
         <h2>私にできること / これからやっていきたいこと</h2>
-        <p>周囲の巻き込み力を持って、仕事の上では、取りまとめ役、エンジニアに限定しないステークホルダーとの折衝、飲み会の幹事をそつなく行うことができます。1on1や評価といったEngineering Manager職に抵抗がありません。むしろ興味があります。技術についても、一般的なWebアプリケーションエンジニアとして特別に深い専門知識を要しない範囲においては貢献できることでしょう。</p>
-        <p>職業エンジニアとしてのミッションを『テクノロジーでサービスに情熱を込める』と定義しております。キャリアのゴールとしては、陽気に気ままにコードを書いている状態ではないかと考えています(私自身はポエマーと呼称しています)。</p>
-        <p>自身で起業をおこなうというよりは、本気で世界を取ろうとしている人の右腕として働けることに喜びを感じます。ただし、前提として私の中に納得感が伴っていることが条件になってしまいます。</p>
-        <p>独立欲はありますし自分で事業もやっていますが、自分の事業をいわゆるスタートアップのように急成長させることにはあまり興味がありません。コードを書くことは好きですが、仕事の上ではあくまで手段と捉えています。</p>
-        <p>また、時期は決めておりませんが、いつか私の生まれ育った地である福岡に移住することを思い描くこともあります。</p>
+        <p>仕事の上では社内外の巻き込み力を持って、エンジニアに限定しないステークホルダーとの取りまとめ役、飲み会の幹事をそつなく行うことができます。1on1や評価といったEngineering Manager職に抵抗はありません。技術力についても、一般的なWebアプリケーションエンジニアとして特別に深い専門知識を要しない範囲においては貢献できることでしょう。</p>
+        <p>職業エンジニアとしてのミッションを『テクノロジーでサービスに情熱を込める』と定義しておりキャリアのゴールとしては、のんきに気ままにコードを書いている状態ではないかと考えています。</p>
+        <p>自身で起業をおこなうというよりは、本気で世界を取ろうとしている人の右腕として働けることに喜びを感じます。ただし、前提として私の中に納得感が伴っていることが条件になります。そういう意味では面倒くさいかもしれません。</p>
+        <p>独立欲はありますし自分で個人事業をやっていますが、自分の事業をいわゆるスタートアップのように急成長させることにはあまり関心がありません。コードを書くことは好きですが、仕事の上ではあくまで手段と捉えています。</p>
+        <p>いろいろな方と前向きに議論することは大好きですので、どうぞお気軽にお声がけください。</p>
       </div>
     </div><!-- /.container -->
   </section>

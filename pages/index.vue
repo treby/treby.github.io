@@ -3,7 +3,7 @@
     <div class="container">
       <div class="starter-template">
         <h1>Hiroaki Ninomiya / treby</h1>
-        <p>二宮啓聡と申します。グローバル・ブレイン株式会社というベンチャーキャピタルでTech Talentをしています。会社やコミュニティではtreby(とれびぃ)と呼ばれています。</p>
+        <p>二宮啓聡と申します。グローバル・ブレイン株式会社というベンチャーキャピタルでTech Talentをしています。会社やコミュニティではtreby(とれびー)と呼ばれています。</p>
         <p>このページでは、私を知るための情報をなるべく簡潔にまとめます(2021/01現在)</p>
       </div>
       <div class="starter-template">
@@ -79,11 +79,12 @@
             グローバル・ブレイン株式会社(2020/01〜)
             <ul>
               <li>
-                <b>Principal / Tech Talent</b>として、社内のIT技術に関わる業務を担当しています。
+                <b>Principal / Tech Talent</b>として、ITに関連する業務を幅広く担当しています。
                 <ul>
-                  <li><b>ITDD</b>(主担当) - 投資検討する際のIT面でのデューデリジェンス、いわゆるデューデリ(DD)です。開発組織、プロダクト、ITガバナンス等々幅広く確認させていただいております。関連して場合によってはご支援先スタートアップの壁打ちをすることもあります。</li>
-                  <li><b><a href="https://universe.globalbrains.com/posts/global-brains-bizdev-team-for-deep-tech-and-cross-border-success">BizDev</a></b> - 兼任。実際の仕事内容としては対象製品がご支援先スタートアップのものという違いはありますが、Solution Architectに近いことをしています。</li>
-                  <li><b>社内ITサポート</b> - 兼任。Techバックグラウンドで、かつ支援業務に就いているメンバーが限られていることもあり社内のIT駆け込み寺のようなことを一部しています。</li>
+                  <li><b><a href="https://universe.globalbrains.com/posts/global-brains-bizdev-team-for-deep-tech-and-cross-border-success">BizDev</a></b> - 実際の仕事内容としては対象製品がご支援先スタートアップのものという違いはありますが、Solution Architectに近いことをしています。</li>
+                  <li><b>ITDD</b>(全案件) - 投資検討する際のIT面でのデューデリジェンス、いわゆるデューデリ(DD)です。開発組織、プロダクト、ITガバナンス等々幅広く確認させていただいております。</li>
+                  <li><b>既存投資先のITご支援</b> - 開発組織、プロダクトロードマップ、アーキテクチャ等、私に知見のある領域においての壁打ちをご要望ベースで行っております。</li>
+                  <li><b>社内ITサポート</b> - Techバックグラウンドで、かつ支援業務に就いているメンバーが限られていることもあり社内のIT駆け込み寺のようなことを一部しています。</li>
                 </ul>
               </li>
             </ul>

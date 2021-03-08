@@ -43,8 +43,12 @@ module.exports = {
     'nuxt-fontawesome',
     '@nuxtjs/pwa'
   ],
+  buildModules: [
+    '@nuxtjs/gtm'
+  ],
   gtm: {
-    id: 'GTM-PX7HVHV'
+    id: 'GTM-PX7HVHV',
+    pageTracking: true
   },
 
   fontawesome: {
